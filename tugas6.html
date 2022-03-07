@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 6</title>
+    </head>
+    <body bgcolor="bluered" >
+        <form id="formulir" > 
+            <table bgcolor="white" align="center" cellpadding="15" width="40%" border="0">
+                <thead>
+                    <tr bgcolor="yellowblue">
+                        <th colspan="2">Kalkulator</th>
+                    </tr>    
+                </thead>
+                <tfoot>
+                    <tr bgcolor="yellowblue">
+                        <th colspan="2">
+                            <input type="button" onclick="tambah()" value="+" />&nbsp;
+                            <input type="button" onclick="kurang()" value="-" />&nbsp;
+                            <input type="button" onclick="kali()" value="X" />&nbsp;
+                            <input type="button" onclick="bagi()" value="/" />&nbsp;
+                            <input type="button" onclick="pangkat()" value="^" />&nbsp;
+                            <input type="reset" onclick="clear()" value="Batal" />
+                        </th>
+                    </tr>    
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td width="30%">Angka 1</td>
+                        <td>
+                            <input type="text" name="a1" onfocus="hitung1()" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Angka 2</td>
+                        <td>
+                            <input type="text" name="a2" onfocus="hitung2()" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hasil</td>
+                        <td>
+                            <input type="text" name="hasil" value="" disabled/>
+                        </td>
+                    </tr>
+                </tbody>        
+            </table>    
+        </form>    
+    </body>      
+    <script src="kalkulator.js"></script>  
+</html>    
