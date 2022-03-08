@@ -1,0 +1,32 @@
+<script>
+    //-----------------membuat class------------------
+    class Gempa {
+        //member1 & 2 : variabel dan konstruktor
+        constructor(lokasi, skala, dampak) {
+            this.nama = lokasi;
+            this.skala = skala;
+            this.dampak = dampak;
+        }
+        //member3 fungsi2
+        dampak() {
+            if (skala < 2) efek = tidakterasa;
+            else if (skala < 4) efek = retakretak;
+            else if (skala < 6) efek = roboh;
+            else if (skala > 6 ) efek = tsunami;
+        }
+
+
+        mencetak() {
+            document.write(`Lokasi : ${this.nama}
+            <br/>Skala : ${this.skala}
+            <br/>Dampak : ${this.dampak}<hr/>`);
+        }
+    }
+    //---------------ciptakan object------------------
+    let gigi = new Gempa('Serang', 4, 'retak retak');
+    let cr7 = new Gempa('Cilegon',  1, 'tidak terasa');
+    let leo = new Gempa('Tengerang',  7, 'tsunami');
+    gigi.mencetak();
+    cr7.mencetak();
+    leo.mencetak();
+</script>
