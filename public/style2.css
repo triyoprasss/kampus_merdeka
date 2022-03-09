@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 70%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: auto;
+    background: rgb(245, 215, 215);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+.tugas2 {
+    margin-bottom: 50px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: left;
+  }
+  
+  .company {
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    padding: 7px 200px;
+    background: rgb(31, 233, 139);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .visi {
+    cursor: pointer;
+    padding: 7px 400px;
+    background: rgb(31, 233, 139);
+    border: 1px solid rgb(231, 231, 231);
+  }
+  
+  .deskripsi {
+    cursor: pointer;
+    padding: 7px 400px;
+    background: rgb(31, 233, 139);
+    border: 1px solid rgb(231, 231, 231);
+  }
+  
+  h1 {
+    font-size: 17px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+  
+  h2 {
+    color: white;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  .title1 {
+    display: none;
+    text-align: justify;
+    background: white;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .title2 {
+    display: none;
+    text-align: justify;
+    background: white;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .title3 {
+    display: none;
+    text-align: justify;
+    background: white;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  
+  p {
+    line-height: 25px;
+  }
+  
+  li {
+    margin-left: 50px;
+  }
+  
