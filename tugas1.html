@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Tugas 1 RWD Bootstrap</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <!-- ini baris pertama -->
+            <div class="row">
+                <div class="col-md-12">
+                    <!----------- awal carousel ----------->
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/header4.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>PrasStart-Up</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/header2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>PrasStart-Up</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/header3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>PrasStart-Up</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!----------- akhir carousel ---------->
+                </div>
+            </div>
+            <!-- ini baris kedua -->
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- -------awal navbar--------- -->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-info" >
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">PrasStart-Up</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Project
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Web Devolope</a></li>
+                                            <li><a class="dropdown-item" href="#">Web Design</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Another else </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ">Contact</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- -------akhir navbar--------- -->
+                </div>
+            </div>
+            <!-- ini baris ketiga -->
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- awal list group -->
+                    <br/>
+                    <center>
+                    <div class="container-fluid cxt-padded bg-faded">
+                        <div class="container">
+                          <div class="media">
+                            <img class="d-flex mr-4 rounded-circle" src="images/iyo.jpg" width="150" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <br/>
+                              <p>Triyo Prasetyo</p>
+                              <p>CEO</p>
+                              <a href="https://github.com/triyoprasss"><img src="images/git.png" class="img-fluid" width="100"></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </center>
+                    <!-- akhir list group -->
+                </div>
+                <div class="col-md-6">
+                    <!-- ini awal konten -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    My History Company 
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <h3>
+                                        <strong>
+                                            History PrasStart-Up Company                                        
+                                         </strong>
+                                    </h3> 
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, maiores ex. Neque, iusto, ipsum, expedita totam rem excepturi nisi in iste tempora animi saepe odit voluptas dicta praesentium quo atque.
+                                    </p>
+                                    <center><img src="images/company.jpg" class="img-rounded" alt="Cinque Terre" width="600" height="350"></center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    My Projet Company
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <h3>
+                                        <strong>
+                                        Project is here
+                                        </strong>
+                                    </h3> 
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum id quas eum accusamus autem ab maiores hic! Animi delectus excepturi maiores consectetur, numquam nostrum. Totam exercitationem porro provident repudiandae!
+                                    </p>
+                                    <p>
+                                        Web Devolope & Web Design
+                                    </p>
+                                    <center>
+                                        <img src="images/project-image02.png" class="img-rounded" alt="Cinque Terre" width="600" height="350">
+                                    </center>
+                                    <center>
+                                        <img src="images/project-image03.png" class="img-rounded" alt="Cinque Terre" width="600" height="350">
+                                    </center>
+                                    <center>
+                                        <img src="images/project-image04.png" class="img-rounded" alt="Cinque Terre" width="600" height="350">
+                                    </center>
+                                    <center>
+                                        <img src="images/project-image05.png" class="img-rounded" alt="Cinque Terre" width="600" height="350">
+                                    </center>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Contact Company
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <h3>
+                                        <strong>
+                                            Contact My Company.
+                                        </strong>
+                                    </h3> 
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nemo adipisci quibusdam, dolorem rerum est, voluptates provident dolore quis ad minus, maiores ratione facere. Consequatur assumenda culpa voluptate quisquam at.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ini akhir konten -->
+                </div>
+                <div class="col-md-3">
+                    <!-- awal list group -->
+                    <center>
+                    <fieldset>
+                        <legend>Tautan</legend>
+                            <a href="https://github.com/triyoprasss" class="btn btn-info" role="button">Github</a>
+                            <a href="https://getbootstrap.com/" class="btn btn-info" role="button">Bootstrap</a>
+                            <a href="https://www.w3schools.com//" class="btn btn-info" role="button">Web Tutorial</a>
+                    </fieldset> 
+                    </center>
+                    <br/>
+                    <fieldset>
+                        <legend>Company News</legend>
+                        <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora necessitatibus magnam cumque officiis deserunt, et ipsam minus voluptates repellendus odit eos doloribus velit nisi eum porro odio! Officia, amet at.                        </p>
+                    </fieldset>
+                    <br/>
+                    <fieldset>
+                        <legend>Best Regrads</legend>
+                        <p>Triyo Prasetyo</p>
+                        <P>CEO</P>
+                        <img src="images/thanks.jpg" alt="iklan pocari" width="100%" />
+                    </fieldset>  
+                    <!-- akhir list group -->
+                </div>
+            </div>
+            <!-- ini baris keempat -->
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- ini awal footer -->
+                    <div class="alert alert-info" role="alert" align="center">
+                        Design by Triyo Prasatyo at Kampus Merdeka
+                    </div>
+                    <!-- ini akhir footer -->
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</html>
